@@ -20,7 +20,9 @@ node main.js <website_url>
 Replace <website_url> with the URL of the website you want to crawl.
 
 # Functionality
+```
 'crawl.js'
+```
 
 This file contains functions responsible for crawling web pages and extracting URLs.
 
@@ -30,7 +32,9 @@ getURLsFromHTML(htmlBody, baseURL): Extracts URLs from HTML content. It returns 
 
 normalizeURL(urlString): Normalizes a URL for consistency. It removes any trailing slashes from the hostname and pathname.
 
+```
 'report.js'
+```
 
 This file contains functions for generating and printing reports based on crawled data.
 
@@ -38,7 +42,9 @@ printReports(pages): Prints a report header, lists URLs along with their hit cou
 
 sortPages(pages): Sorts the crawled pages based on hit counts in descending order. It returns an array of [URL, hits] pairs sorted by hit count.
 
+```
 'index.js'
+```
 
 This is the main entry point of the application. It reads the command-line arguments, initiates the crawling process, and prints the generated report.
 
