@@ -7,13 +7,15 @@ Clone this repository to your local machine.
 Navigate to the project directory.
 
 Install dependencies using npm:
-
-npm install 
+```
+npm install
+```
 
 # Usage
 To generate a report based on a website, run the following command in your terminal:
-
+```
 node main.js <website_url>
+```
 
 Replace <website_url> with the URL of the website you want to crawl.
 
